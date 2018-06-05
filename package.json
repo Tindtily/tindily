@@ -1,0 +1,38 @@
+{
+  "name": "praise",
+  "version": "1.0.0",
+  "description": "praise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start",
+    "build": "babel src -d des"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tindtily/tindily.git"
+  },
+  "keywords": [
+    "praise"
+  ],
+  "author": "zxh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tindtily/tindily/issues"
+  },
+  "homepage": "https://github.com/Tindtily/tindily#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "dependencies": {}
+}
